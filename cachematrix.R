@@ -31,3 +31,6 @@ cacheSolve <- function(x, ...) {
 z<-matrix(c(1:4),2)
 y<-makeCacheMatrix(z)
 cacheSolve(y)
+
+z<-matrix(c(1:4),2)
+cacheSolve(y)
